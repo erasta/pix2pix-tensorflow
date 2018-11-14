@@ -1,5 +1,5 @@
 var editor_background = new Image()
-editor_background.src = "editor.png"
+editor_background.src = "images/editor.png"
 
 var DEBUG = false
 var SIZE = 256
@@ -27,9 +27,9 @@ function main() {
             eraser: "#ffffff",
         },
         draw: "#000000",
-        initial_input: "edges2cats-input.png",
-        initial_output: "edges2cats-output.png",
-        sheet_url: "edges2cats-sheet.jpg",
+        initial_input: "images/edges2cats-input.png",
+        initial_output: "images/edges2cats-output.png",
+        sheet_url: "images/edges2cats-sheet.jpg",
     })
 
     window.requestAnimationFrame(frame)
