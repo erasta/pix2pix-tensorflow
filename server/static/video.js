@@ -31,6 +31,7 @@ function init() {
 
 function snapshot() {
     // Draws current image from the video element into the canvas
+    canvas.height = video.videoHeight * canvas.width / video.videoWidth;
     ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
 }
 init();
